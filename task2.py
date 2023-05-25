@@ -11,7 +11,7 @@ x = float(input("Введите число X: "))
 print(x)
 
 dif = abs(x - a[0])
-near=a[0]
+near = a[0]
 for i in range(len(a)):
     if abs(x - a[i]) < dif:
         dif = abs(x - a[i])
